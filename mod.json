@@ -1,0 +1,35 @@
+{
+    "geode": "4.7.0",
+    "gd": {
+        "android": "2.2074"
+    },
+    "id": "chatgpt.click-corrector-pro",
+    "name": "Click Corrector Pro",
+    "version": "v0.1.0",
+    "developer": "Community prototype",
+    "description": "Probabilistic death-protection prototype for Geometry Dash Android 2.2074.",
+    "tags": [
+        "gameplay",
+        "enhancement",
+        "offline"
+    ],
+    "settings": {
+        "enabled": {
+            "name": "Enable protection",
+            "type": "bool",
+            "default": false,
+            "description": "When enabled, some death calls may be skipped."
+        },
+        "survivalChance": {
+            "name": "Protection chance",
+            "type": "enum",
+            "default": "100",
+            "options": [
+                "100",
+                "50",
+                "10"
+            ],
+            "description": "Chance to skip a death call: 100%, 50%, or 10%."
+        }
+    }
+}
